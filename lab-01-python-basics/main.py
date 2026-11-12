@@ -41,9 +41,9 @@ def minmax(data):
     current_max = data[0] # maximum numb
 
     for val in data: #iterates through the input (data)
-        if val < current_min: #if the current value is less than the stored min, sets the current value as the stored minimum numb
+        if val < current_min: # if the current value is less than the stored min, sets the current value as the stored minimum numb
             current_min = val
-        elif val > current_max: #mirrored for the maximum number ^
+        elif val > current_max: # mirrored for the maximum number ^
             current_max = val
     return current_min, current_max #returns the min & max as tuple w/ length of 2.
 #Test Case

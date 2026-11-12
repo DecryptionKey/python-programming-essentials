@@ -1,0 +1,2 @@
+This is the second test file I created for Problem #9. 
+This should be able to be read/opened by the program as the encoding is updated to the accepted version of UTF-8.
